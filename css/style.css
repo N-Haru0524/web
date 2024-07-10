@@ -189,9 +189,16 @@ header #logo img {
 	margin-left:30%;
 }
 
+.list.box {
+	float: left;
+	padding-right: 5%;
+}
+
 .list video {
+	float:left;
 	width: 30%;
 }
+
 
 /*フッター設定
 ---------------------------------------------------------------------------*/
