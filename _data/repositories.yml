@@ -4,4 +4,6 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - N-Haru0524/web
+  - N-Haru0524/one
+  - N-Haru0524/one_ros2
+  - N-Haru0524/khi_ros2
