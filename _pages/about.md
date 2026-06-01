@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: M2 Student, <a href='https://www.roboticmanipulation.org/'>Harada Lab.</a>, Osaka University. 協働ロボット・組立順序計画の研究。
+subtitle: M2 Student, <a href='https://www.roboticmanipulation.org/'>Harada Lab.</a>, Osaka University.
 
 profile:
   align: right
-  image: logo.png
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>大阪大学 基礎工学部 原田研究室</p>
     <p>nagai[at]hlab.sys.es.osaka-u.ac.jp</p>
@@ -26,8 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-永井陽斗（Haruto Nagai）です。大阪大学大学院 基礎工学研究科 原田研究室に所属する修士課程2年（M2）です。
+永井陽斗です。大阪大学大学院 基礎工学研究科 原田研究室に所属する修士課程2年です。
 
-協働ロボットに興味があり、**各部品のワークフロー制約および動作コストを考慮した組立順序計画**を研究しています。RoboMech2025（山形）で発表し、IROS2025（杭州）・IREX2025（東京）にも参加しました。
+ロボットに興味があり、**各部品のワークフロー制約および動作コストを考慮した組立順序計画**を研究しています。RoboMech2025（山形）・IROS2025（杭州）で発表し、IREX2025（東京）にも参加しました。
 
-舞鶴工業高等専門学校 制御工学科の出身で、学生時代は離散値入力システムの動的量子化器（倒立振子制御）にも取り組みました。
+舞鶴工業高等専門学校 制御工学科の出身で、学生時代はプロコン部員として活動をおこなっていました。
