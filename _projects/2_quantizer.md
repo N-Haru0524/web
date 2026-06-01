@@ -12,8 +12,11 @@ MATLAB と ODQ Toolbox を用いて倒立振子の制御を行い、Arduino（8b
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        <video class="img-fluid rounded z-depth-1" autoplay loop muted playsinline>
+        <video controls autoplay loop muted playsinline preload="metadata"
+               style="display:block; width:100%; aspect-ratio:16/9; background:#000; border-radius:.5rem;">
             <source src="{{ '/assets/video/pendulumFHD.mp4' | relative_url }}" type="video/mp4">
+            お使いのブラウザは動画を再生できません。
+            <a href="{{ '/assets/video/pendulumFHD.mp4' | relative_url }}">ダウンロード</a>
         </video>
     </div>
 </div>
