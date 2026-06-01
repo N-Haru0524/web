@@ -1,0 +1,92 @@
+cv:
+  name: 永井 陽斗 (Haruto Nagai)
+  label: M2 Student, Harada Lab., Osaka University
+  email: nagai[at]hlab.sys.es.osaka-u.ac.jp
+  location: Osaka, Japan
+  image: ""
+  summary: 多品種少量生産の組立自動化を目指し、各部品のワークフロー制約と動作コストを考慮した組立順序計画を研究。双腕ロボットの動作生成、policy学習による作業学習にも取り組む。IROS2025・ROBOMECH2025で発表。高専での加工・ロボット製作の経験を持ち、シミュレーションから実機まで一貫して扱える。
+
+  social_networks:
+    - network: GitHub
+      username: N-Haru0524
+
+  sections:
+    Education:
+      - institution: 大阪大学大学院 基礎工学研究科（原田研究室）
+        location: 大阪
+        area: ロボティクス / 組立順序計画
+        studyType: 博士前期課程（修士）
+        start_date: 2025
+        end_date: 現在
+
+      - institution: 大阪大学 基礎工学部
+        location: 大阪
+        area: システム科学
+        studyType: 学士
+        start_date: 2023
+        end_date: 2025
+
+      - institution: 舞鶴工業高等専門学校 制御工学科
+        location: 京都
+        area: 制御工学
+        studyType: 準学士
+        start_date: 2018
+        end_date: 2023
+
+    Publications:
+      - title: Assembly Sequence Planning Considering Robotic Motion Costs and Multi-Operation Constraints
+        authors:
+          - Haruto Nagai
+          - Weiwei Wan
+          - Hiroki Suemoto
+          - Kouichi Masaoka
+          - Kensuke Harada
+        publisher: IEEE/RSJ IROS 2025, Hangzhou, China
+        releaseDate: 2025
+
+      - title: 各部品のワークフロー制約および動作コストを考慮した組立順序計画
+        authors:
+          - 永井陽斗
+          - 万偉偉
+          - 末元大樹
+          - 正岡孝一
+          - 原田研介
+        publisher: ロボティクス・メカトロニクス講演会2025（山形）
+        releaseDate: 2025
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, C++（研究・実装の主力言語）"
+
+      - name: Robotics & Simulation
+        icon: fa-solid fa-robot
+        keywords: "ROS2, MoveIt（isaacsim.ros2.bridge 連携）, Isaac Sim / Isaac Lab, Panda3D, Kawasaki RS007L（USDアセット調整・双腕構成）"
+
+      - name: Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "模倣学習（Behavior Cloning, Diffusion Policy）, 動作コスト回帰（ResNet系）, PyTorch（ResNet18エンコーダ等）"
+
+      - name: CAD & 3D Design
+        icon: fa-solid fa-cube
+        keywords: "Fusion 360, Onshape, CadQuery, 3Dプリンティング（Bambu Lab H2D + AMS）"
+
+      - name: Dev Tools & Infrastructure
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Git（Git Worktrees）, Docker（コンテナ並列運用）, VS Code（Tunnel）, Tailscale, GPU環境構築（NVIDIA driver / RTX系）"
+
+    Languages:
+      - name: 日本語
+        summary: ネイティブ
+
+      - name: English
+        summary: Reading / Writing
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-flask
+        keywords: "組立順序計画, タスクプランニング, 双腕ロボットの動作生成, 模倣学習"
+
+      - name: Technical
+        icon: fa-solid fa-microchip
+        keywords: "3Dプリンティング / CAD, 機械加工, 組込み制御（ROS2 / Python / C++）"

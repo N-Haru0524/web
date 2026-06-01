@@ -1,0 +1,27 @@
+---
+layout: page
+title: 組立順序計画
+description: 各部品のワークフロー制約および動作コストを考慮した組立順序計画
+img: assets/img/assembly_graphical_abstract.png
+importance: 1
+category: research
+related_publications: true
+---
+
+ロボットによる組立作業において、各部品の**ワークフロー制約**（部品ごとに許される作業順序の制約）と、ロボットの**動作コスト**（移動・持ち替えなどにかかるコスト）を同時に考慮し、効率的な組立順序を計画する研究です。
+
+ロボティクス・メカトロニクス講演会2025（@山形）で発表し、IROS2025（@Hangzhou, China）でも発表しました。
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        <video controls autoplay loop muted playsinline preload="metadata"
+               style="display:block; width:100%; aspect-ratio:16/9; background:#000; border-radius:.5rem;">
+            <source src="{{ '/assets/video/assembly.mp4' | relative_url }}" type="video/mp4">
+            お使いのブラウザは動画を再生できません。
+            <a href="{{ '/assets/video/assembly.mp4' | relative_url }}">ダウンロード</a>
+        </video>
+    </div>
+</div>
+<div class="caption">
+    組立シミュレーションの様子。
+</div>
