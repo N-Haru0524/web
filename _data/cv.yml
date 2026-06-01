@@ -1,0 +1,66 @@
+cv:
+  name: 永井 陽斗 (Haruto Nagai)
+  label: M2 Student, Harada Lab., Osaka University
+  email: nagai[at]hlab.sys.es.osaka-u.ac.jp
+  location: Osaka, Japan
+  image: ""
+  summary: 大阪大学 原田研究室 修士課程2年。協働ロボット・組立順序計画の研究に取り組んでいます。
+
+  social_networks:
+    - network: GitHub
+      username: N-Haru0524
+
+  sections:
+    Education:
+      - institution: 大阪大学大学院 基礎工学研究科（原田研究室）
+        location: 大阪
+        area: ロボティクス / 組立順序計画
+        studyType: 博士前期課程（修士）
+        start_date: 2025
+        end_date: 現在
+
+      - institution: 大阪大学 基礎工学部
+        location: 大阪
+        area: システム科学
+        studyType: 学士
+        start_date: 2023
+        end_date: 2025
+
+      - institution: 舞鶴工業高等専門学校 制御工学科
+        location: 京都
+        area: 制御工学
+        studyType: 準学士
+        end_date: 2023
+
+    Publications:
+      - title: Assembly Sequence Planning Considering Robotic Motion Costs and Multi-Operation Constraints
+        authors:
+          - Haruto Nagai
+          - Weiwei Wan
+          - Hiroki Suemoto
+          - Kouichi Masaoka
+          - Kensuke Harada
+        publisher: IEEE/RSJ IROS 2025, Hangzhou, China
+        releaseDate: 2025
+
+      - title: 各部品のワークフロー制約および動作コストを考慮した組立順序計画
+        authors:
+          - 永井陽斗
+          - 万偉偉
+          - 末元大樹
+          - 正岡孝一
+          - 原田研介
+        publisher: ロボティクス・メカトロニクス講演会2025（山形）
+        releaseDate: 2025
+
+    Languages:
+      - name: 日本語
+        summary: ネイティブ
+
+      - name: English
+        summary: Reading / Writing
+
+    Interests:
+      - name: Robotics
+        icon: fa-solid fa-robot
+        keywords: "協働ロボット, 組立順序計画, タスクプランニング, 制御"

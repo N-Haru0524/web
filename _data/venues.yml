@@ -1,0 +1,8 @@
+# 会議・誌のメタデータ（abbreviation のリンク・色付け用、必要に応じて追加）
+# 例:
+# "IROS":
+#   url: https://www.iros25.org/
+#   color: "#1f6feb"
+# "ROBOMECH":
+#   url: https://robomech.org/2025/
+#   color: "#9333ea"
