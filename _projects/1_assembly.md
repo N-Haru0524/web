@@ -2,7 +2,7 @@
 layout: page
 title: 組立順序計画
 description: 各部品のワークフロー制約および動作コストを考慮した組立順序計画
-img: assets/img/iros2025.jpeg
+img: assets/img/assembly_graphical_abstract.png
 importance: 1
 category: research
 related_publications: true

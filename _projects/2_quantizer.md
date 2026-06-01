@@ -2,6 +2,7 @@
 layout: page
 title: 動的量子化器
 description: 離散値入力システムにおける動的量子化器の評価（倒立振子制御）
+img: assets/img/quantizer_abstract.png
 importance: 2
 category: research
 ---
