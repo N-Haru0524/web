@@ -26,6 +26,33 @@
 
 ## ローカルでの確認方法
 
+### Docker を使う場合（推奨）
+
+Ruby を入れずに、al-folio 公式のビルド済みイメージ（`amirpourmand/al-folio:latest`）でそのまま確認できます。
+[docker-compose.yml](docker-compose.yml) がこのイメージを使う設定になっています。
+
+```bash
+docker compose up
+```
+
+起動後、ブラウザで <http://localhost:8080/web/> を開きます（ポートは **8080**、`baseurl` の `/web/` を忘れずに）。
+ファイルを編集すると自動で再ビルドされます。終了は `Ctrl + C`、コンテナを片付けるなら:
+
+```bash
+docker compose down
+```
+
+> イメージは**初回の `docker compose up` のときに一度だけダウンロード**され、以降はローカルにキャッシュされたものが使われます（毎回ダウンロードは不要）。
+> もし手元にイメージが無いとき・最新化したいときだけ、明示的に取得できます:
+>
+> ```bash
+> docker pull amirpourmand/al-folio:latest
+> ```
+>
+> 取得済みか確認: `docker images amirpourmand/al-folio`
+
+### Ruby を直接使う場合
+
 Ruby と Bundler が必要です。
 
 ```bash
@@ -34,12 +61,6 @@ bundle exec jekyll serve
 ```
 
 起動後、ブラウザで <http://localhost:4000/web/> を開きます。
-
-Docker を使う場合:
-
-```bash
-docker compose up
-```
 
 ## クレジット
 
