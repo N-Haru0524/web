@@ -34,6 +34,16 @@ cv:
         end_date: 2023
 
     Publications:
+      - title: 視覚制約付き双腕組立計画と精密動作補正
+        authors:
+          - 永井陽斗
+          - 万偉偉
+          - 末元大樹
+          - 正岡孝一
+          - 原田研介
+        publisher: 第44回日本ロボット学会学術講演会（RSJ2026, 金沢）
+        releaseDate: 2026
+
       - title: Assembly Sequence Planning Considering Robotic Motion Costs and Multi-Operation Constraints
         authors:
           - Haruto Nagai
